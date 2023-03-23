@@ -1,5 +1,5 @@
 # CDR-Finder
-This repository contains a snakemake to identify and quantify Centromere Demethylation Regions.
+This repository contains a snakemake to identify and quantify Centromere Demethylation Regions (CDR).
 
 This is done by:
 - Bin into 5kbp windows
