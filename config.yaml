@@ -1,0 +1,6 @@
+target_bed: {bed file of target region}
+meth_tsv: {path to methylation tsv}
+rm_out: {path to repeat masker output}
+window_size: 5000
+sample: {sample_name}
+len_filter: 50000
