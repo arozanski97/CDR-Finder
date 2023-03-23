@@ -1,5 +1,6 @@
 # CDR-Finder
-This repository contains a snakemake to identify and quantify Centromere Demethylation Regions 
+This repository contains a snakemake to identify and quantify Centromere Demethylation Regions.
+
 This is done by:
 - Bin into 5kbp windows
 - Intersect with ALR Annotations from Repeat Masker
@@ -14,7 +15,7 @@ This is done by:
 
 # Output
 
-Based on Median Methylation Profile across region, idenitfies and bins regions with methylation frequency below average.
+Based on median methylation profile across region, idenitfies and bins regions with methylation frequency below median.
 ```
 results/{sample}_CDR.bed
 ```
